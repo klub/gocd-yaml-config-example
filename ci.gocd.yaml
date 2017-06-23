@@ -235,7 +235,7 @@ pipelines:
                    command: st2
                    arguments:
                    - run
-                   - nibiru_cicd.buildappamichain
+                   - nibiru.build_app_ami_chain
                    - os_name=ubuntu1604
                    - app_package_name_loc=./restservice-0.0.5-SNAPSHOT.jar
                    - package_install_loc=/home/ubuntu/restservice-0.0.5-SNAPSHOT.jar
